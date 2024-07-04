@@ -1,0 +1,351 @@
+.navbar {
+    padding: 10px;
+    text-align: center;
+    margin: -20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: gainsboro;
+}
+
+.navbar li {
+    float: left;
+    margin: 21px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+
+
+#parent {
+    text-align: center;
+    background-color: gainsboro;
+}
+
+#parent h1 {
+    margin: 11px;
+    padding: 24px;
+
+}
+
+#parent button {
+    border: none;
+    border-radius: 5px;
+    box-sizing: 25px;
+    font-size: medium;
+    padding: 22px;
+    margin: 46px
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img1 img {
+    align-items: center;
+    border-radius: 100%;
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.img1 p {
+    justify-content: center;
+    text-align: center;
+}
+
+.new {
+
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url(./img/log2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 97px;
+}
+.new p {
+    font-size: x-large;
+    color: white;
+}
+
+.new button {
+    border: none;
+    margin: 12px;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    /* background-color: floralwhite; */
+    margin-top: 10px;
+    padding-top: -33px;
+    background-size: cover;
+}
+
+.section .item {
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.card {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: 4px 4px 10px gray;
+    text-align: center;
+}
+
+.card p {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightslategrey;
+}
+
+.card button {
+    border: none;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card2 {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: 4px 4px 10px gray;
+    overflow: auto;
+}
+
+.demo {
+    float: left;
+}
+
+.content {
+    float: right;
+}
+
+.content h2 {
+    padding-top: 54px;
+    margin-right: 365px;
+}
+
+.content button {
+    border: none;
+    font-size: larger;
+    background-color: burlywood;
+    padding: 13px;
+    border-radius: 10px;
+
+}
+
+.card3 {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: 4px 4px 10px gray;
+    overflow: auto;
+}
+
+.content2 {
+    float: left;
+}
+
+.content2 {
+    padding-top: -54px;
+    margin-left: 116px;
+}
+
+.demo2 {
+    float: right;
+}
+
+.content2 button {
+    border: none;
+    font-size: larger;
+    background-color: burlywood;
+    padding: 13px;
+    border-radius: 10px;
+
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gainsboro;
+
+}
+
+.footer .footer1 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.footer .footer2 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.footer .footer3 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.footer .footer4 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.button {
+    padding: 13px;
+    border: none;
+    margin-top: 35px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    /* background-color: floralwhite; */
+    margin-top: 10px;
+    padding-top: -33px;
+    background-size: cover;
+
+}
+.img2 img {
+    align-items: center;
+    border-radius: 0 0 100% 100%;
+    margin-top: -29px;
+}
+.img2{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    /* background-color: floralwhite; */
+    margin-top: 10px;
+    padding-top: -33px;
+    background-size: cover;
+}
+
+.blog .bg {
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.blog .bg img {
+    border-radius: 100%;
+    border: 1px solid red;
+    width: 99px;
+    height: 110px;
+}
+
+.bg p {
+    color: gray;
+    font-size: large;
+    font-family: sans-serif;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    /* align-items: center; */
+    /* background-color: floralwhite; */
+    margin-top: 10px;
+    padding-top: -33px;
+    background-size: cover;
+}
+.contain{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 4px 4px 10px gray;
+
+}
+.contain p{
+    font-size: larger;
+    font-family: sans-serif;
+}
+.from{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.from .login .btn button{
+    margin: 20px;
+    padding: 7px;
+    font-size: inherit;
+    border-radius: 10px;
+    background-color: blue;
+}
+.signup{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.signup .dcb{
+    padding:53px;
+}
